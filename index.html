@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qr code </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1 w-100 text-light text-center">QR Code</span>
+        </div>
+      </nav>
+
+      <div class="container p-5 d-flex justify-content-center">
+        
+      <div style="width: 50%; height: 70vh; background-color: aqua;" class=" p-4">
+        <h3 style="color: white;">Generate Qr</h3>
+        <div class="d-flex justify-content-center">
+          <input style="color: white;" type="text"
+        placeholder="Enter Your QR name"
+        class="form-control w-50"
+        >
+        <button style="border: 1px solid white ;" class="btn btn-success w-50">
+          submit
+       </button>
+        </div>
+        <div class="  d-flex justify-content-center imgBox">
+
+            <img src="" id="imgTag" class="my-5">
+
+        </div>
+
+        
+      </div>
+
+      </div>
+    <script src="main.js"></script>
+</body>
+</html>
